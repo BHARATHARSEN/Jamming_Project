@@ -25,9 +25,17 @@ function App() {
 
   }
 
-  const removetrack = (track) {
-    playlistTracks.filter((trackz) => trackz.value !== track.value)
+  const removeTrack = (track) {
+    const updatedPlaylist = playlistTracks.filter((trackz) => trackz.value !== track.value)
   }
+
+  const updatedPlaylistName = (name) => {
+    setPlaylistName(name)
+  }
+
+  
+
+
 
 
 
